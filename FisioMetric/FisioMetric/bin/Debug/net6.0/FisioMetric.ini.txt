@@ -1,0 +1,4 @@
+servidor=localhost
+bancoDados=fisioreports
+user=root
+senha=dessa300
