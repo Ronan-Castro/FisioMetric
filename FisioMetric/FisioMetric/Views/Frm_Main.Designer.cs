@@ -30,88 +30,87 @@
         {
             panel1 = new Panel();
             listView1 = new ListView();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            Btn_NovoRelatorio = new Button();
+            Btn_VerRelatorio = new Button();
+            Btn_Deletar = new Button();
+            Btn_regPaciente = new Button();
             label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.AutoSize = true;
             panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(listView1);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(Btn_NovoRelatorio);
+            panel1.Controls.Add(Btn_VerRelatorio);
+            panel1.Controls.Add(Btn_Deletar);
+            panel1.Controls.Add(Btn_regPaciente);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(802, 478);
+            panel1.Size = new Size(1050, 591);
             panel1.TabIndex = 1;
             // 
             // listView1
             // 
             listView1.Location = new Point(64, 125);
             listView1.Name = "listView1";
-            listView1.Size = new Size(664, 288);
+            listView1.Size = new Size(924, 416);
             listView1.TabIndex = 5;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // button4
+            // Btn_NovoRelatorio
             // 
-            button4.AutoSize = true;
-            button4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button4.Location = new Point(621, 81);
-            button4.Name = "button4";
-            button4.Size = new Size(59, 25);
-            button4.TabIndex = 4;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            Btn_NovoRelatorio.AutoSize = true;
+            Btn_NovoRelatorio.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            Btn_NovoRelatorio.Location = new Point(892, 81);
+            Btn_NovoRelatorio.Name = "Btn_NovoRelatorio";
+            Btn_NovoRelatorio.Size = new Size(96, 25);
+            Btn_NovoRelatorio.TabIndex = 4;
+            Btn_NovoRelatorio.Text = "Novo Relatório";
+            Btn_NovoRelatorio.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Btn_VerRelatorio
             // 
-            button3.AutoSize = true;
-            button3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button3.Location = new Point(491, 81);
-            button3.Name = "button3";
-            button3.Size = new Size(59, 25);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            Btn_VerRelatorio.AutoSize = true;
+            Btn_VerRelatorio.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            Btn_VerRelatorio.Location = new Point(724, 81);
+            Btn_VerRelatorio.Name = "Btn_VerRelatorio";
+            Btn_VerRelatorio.Size = new Size(134, 25);
+            Btn_VerRelatorio.TabIndex = 3;
+            Btn_VerRelatorio.Text = "Relatórios do Paciente";
+            Btn_VerRelatorio.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Btn_Deletar
             // 
-            button2.AutoSize = true;
-            button2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button2.Location = new Point(190, 81);
-            button2.Name = "button2";
-            button2.Size = new Size(59, 25);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            Btn_Deletar.AutoSize = true;
+            Btn_Deletar.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            Btn_Deletar.Location = new Point(190, 81);
+            Btn_Deletar.Name = "Btn_Deletar";
+            Btn_Deletar.Size = new Size(54, 25);
+            Btn_Deletar.TabIndex = 2;
+            Btn_Deletar.Text = "Deletar";
+            Btn_Deletar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Btn_regPaciente
             // 
-            button1.AutoSize = true;
-            button1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            button1.Location = new Point(64, 81);
-            button1.Name = "button1";
-            button1.Size = new Size(59, 25);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            Btn_regPaciente.AutoSize = true;
+            Btn_regPaciente.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            Btn_regPaciente.Location = new Point(64, 81);
+            Btn_regPaciente.Name = "Btn_regPaciente";
+            Btn_regPaciente.Size = new Size(111, 25);
+            Btn_regPaciente.TabIndex = 1;
+            Btn_regPaciente.Text = "Registrar Paciente";
+            Btn_regPaciente.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(64, 38);
+            label1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(64, 35);
             label1.Name = "label1";
-            label1.Size = new Size(181, 22);
+            label1.Size = new Size(224, 29);
             label1.TabIndex = 0;
             label1.Text = "Lista De Pacientes";
             // 
@@ -130,16 +129,15 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
         private Panel panel1;
         private ListView listView1;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button Btn_NovoRelatorio;
+        private Button Btn_VerRelatorio;
+        private Button Btn_Deletar;
+        private Button Btn_regPaciente;
         private Label label1;
     }
 }

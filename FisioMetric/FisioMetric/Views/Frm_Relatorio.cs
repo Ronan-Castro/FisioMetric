@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FisioMetric.Views
 {
-    public partial class Frm_ListaRelatorios : Form
+    public partial class Frm_Relatorio : Form
     {
-        public Frm_ListaRelatorios()
+        public Frm_Relatorio()
         {
             InitializeComponent();
         }

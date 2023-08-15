@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projeto C#\\FisioMetric\\FisioMetric\\FisioMetric.csproj": {}
+    "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\FisioMetric.csproj": {}
   },
   "projects": {
-    "C:\\Projeto C#\\FisioMetric\\FisioMetric\\FisioMetric.csproj": {
+    "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\FisioMetric.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto C#\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
+        "projectUniqueName": "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
         "projectName": "FisioMetric",
-        "projectPath": "C:\\Projeto C#\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
+        "projectPath": "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
         "packagesPath": "C:\\Users\\nethe\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto C#\\FisioMetric\\FisioMetric\\obj\\",
+        "outputPath": "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nethe\\AppData\\Roaming\\NuGet\\NuGet.Config",

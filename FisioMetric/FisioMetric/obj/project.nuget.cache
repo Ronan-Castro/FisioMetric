@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+moyIA51eZecXsSaEQyQ8D4CJXfN7daSuT2KstEAxEjtxmRGXWx920fAcXt0ZyEkoErbzuGPYAHr9P27NxOnw==",
+  "dgSpecHash": "2Oon+EVQK8FkSZRbR8ntgL4StNK3gbLp26meNeBLcq/xdU5pf0Avgj0biTArCaULdzkKqJZUfYw65JGxlyoFCQ==",
   "success": true,
-  "projectFilePath": "C:\\Projeto C#\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
+  "projectFilePath": "C:\\Users\\nethe\\Desktop\\ProjetinhoComSasa\\FisioMetric\\FisioMetric\\FisioMetric.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nethe\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\nethe\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

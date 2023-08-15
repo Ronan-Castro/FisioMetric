@@ -1,22 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Views\Frm_GerenciaPaciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\Frm_GerenciaRelatorio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\Frm_ListaRelatorios.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\Frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Frm_VisualizaRelatorio.cs">
+    <Compile Update="Views\Frm_Paciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\novoform.cs">
+    <Compile Update="Views\Frm_Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Frm_ListaRelatório.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Frm_ViewRelatorio.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
